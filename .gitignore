@@ -1,0 +1,19 @@
+# Java
+*.class
+*.jar
+*.war
+**/bin/
+
+# IDE
+.vscode/
+*.iml
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+*.log
+*.tmp
+*.bak
