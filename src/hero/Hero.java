@@ -1,3 +1,5 @@
 package hero;
 
-public class Hero {}
+public class Hero extends Character implements Attackable {
+    
+}
