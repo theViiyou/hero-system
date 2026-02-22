@@ -1,20 +1,14 @@
 package hero;
 
-public class Hero extends Character implements Attackable {
-    private String voiceline = "";
+public abstract class Hero {
 
-    public Hero(String name, int health, String voiceline) {
-        super(name, health);
-        this.voiceline = voiceline;
+    private String name;
+    private int hp;
+
+    public Hero(String name, int hp) {
+        this.name = name;
+        this.hp = hp;
     }
 
-    @Override
-    public void attack() {
-    }
-
-    @Override
-    public void voiceLine() {
-        System.out.println(getName() + ": " + voiceline);
-    }
-
+    public abstract void ability();
 }
