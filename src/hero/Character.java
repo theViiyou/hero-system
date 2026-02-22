@@ -2,8 +2,8 @@ package hero;
 
 public abstract class Character {
 
-    String name;
-    int health;
+    private String name;
+    private int health;
 
     public Character(String name, int health) {
         this.name = name;
@@ -11,4 +11,14 @@ public abstract class Character {
     }
 
     public abstract void attack();
+
+    public String getName() {
+        return name;
+    }
+
+    public int getHealth() {
+        return health;
+    }
+
+    public abstract void voiceLine();
 }

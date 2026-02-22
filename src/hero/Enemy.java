@@ -10,4 +10,9 @@ public class Enemy extends Character implements Attackable {
     public void attack() {
     }
 
+    @Override
+    public void voiceLine() {
+
+    }
+
 }
