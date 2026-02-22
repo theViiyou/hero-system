@@ -14,7 +14,7 @@ public class Main {
 
         heroes.add(moira);
         heroes.add(domina);
-        heroes.add(vendetta);
+            heroes.add(vendetta);
 
         for (Hero h : heroes) {
             h.ability();
